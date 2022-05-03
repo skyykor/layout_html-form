@@ -38,7 +38,7 @@
           How old are You?
           <input
             type="number"
-            name="age"
+            name="userAge"
             value="12"
             min="1"
             max="122"
@@ -58,7 +58,7 @@
           I accept the term of the agreement
           <input
             type="checkbox"
-            name="acceptAgreet"
+            name="acceptAgreement"
             required
           >
         </label>
@@ -111,7 +111,7 @@
           What is your favorite color?
           <input
             type="color"
-            name="favColor"
+            name="favoriteColor"
           >
         </label>
 
@@ -163,13 +163,25 @@
 
         <label class="form-field, field">
           Would you recommend us?
-          <select name="recom">
-            <option value="1" selected>yes</option>
-            <option value="0">no</option>
+          <select name="recommendUs">
+            <option
+              value="1"
+              selected
+            >
+              yes
+            </option>
+            <option
+              value="0"
+            >
+              no
+            </option>
           </select>
+
         </label>
       </fieldset>
+
       <button type="submit" class="button">Submit</button>
+      
     </form>
   </body>
 </html>
