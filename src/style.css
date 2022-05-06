@@ -1,8 +1,4 @@
 /* styles go here */
-.header {
-  text-align: center;
-}
-
 .form-field {
   display: block;
   margin-bottom: 10px;
@@ -13,5 +9,6 @@
 }
 
 .field {
-  margin-bottom: 0 px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
